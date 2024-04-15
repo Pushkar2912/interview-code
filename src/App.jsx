@@ -8,8 +8,8 @@ const App = () => {
     console.log("Required test");
   }
   return (
-    <div className='p-2'>
-      <form onSubmit={handleSubmit} className='flex flex-col justify-center gap-4'>
+    <div className='p-2 ml-20 mt-20'>
+      <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
         <ParentComp title={"Text"} inputType={"text"} required={true} placeholder={'Enter Your Name'} /> 
 
         {/* user can provide InputStyle, InputTitle, placeholder, required, disable props to component */}
